@@ -7,7 +7,7 @@ export function Header() {
   const { pathname } = useRouter();
 
   return (
-    <Flex as="header" maxW="100vw" height={{base: "3.125rem", md: "24"}} background="light.50">
+    <Flex as="header" maxW="100vw" height={{base: "16", md: "24"}} background="light.50">
       <Flex
         maxW="1240px"
         w="100%"
@@ -30,7 +30,7 @@ export function Header() {
             />
           </Link>
         )}
-        <Image src="/logo.svg" w={{base: "81px", md: "184.06px"}} />
+        <Image src="/logo.svg" w={{base: "120px", md: "184.06px"}} />
       </Flex>
     </Flex>
   );

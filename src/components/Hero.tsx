@@ -7,7 +7,7 @@ export function Hero() {
         backgroundImage="/hero.jpg"
         backgroundPosition="center"
         w="100%"
-        h={{ base: "163px", lg: "335px" }}
+        h="335px"
       >
         <Flex
           margin="0 auto"
@@ -25,7 +25,7 @@ export function Hero() {
           >
             <Text
               as="h1"
-              fontSize={{ base: "1.25rem", lg: "2.25rem" }}
+              fontSize={{ base: "1.75rem", lg: "2.25rem" }}
               fontWeight="medium"
               color="light.100"
             >
@@ -33,7 +33,7 @@ export function Hero() {
             </Text>
             <Text
               as="p"
-              fontSize={{ base: "0.875rem", lg: "1.25rem" }}
+              fontSize={{ base: "1rem", lg: "1.25rem" }}
               fontWeight="normal"
               color="light.200"
             >
@@ -45,7 +45,7 @@ export function Hero() {
             position="absolute"
             right="0.75rem"
             bottom="-8"
-            w={{md: "250.15px", lg: "417.15px"}}
+            w={{md: "320px", lg: "417.15px"}}
             display={{base: "none", md: "block"}}
           />
         </Flex>
