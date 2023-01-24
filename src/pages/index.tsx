@@ -1,4 +1,4 @@
-import { Stack, Box } from "@chakra-ui/react";
+import { Stack, Box, VStack, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import { Container } from "../components/Container";
 import { Hero } from "../components/Hero";
@@ -36,8 +36,12 @@ export default function Home() {
           display="flex"
           justifySelf="center"
         />
+        <VStack>
+          <Text fontSize="3xl" fontWeight="medium" color="dark.750">Vamos nessa?</Text>
+          <Text fontSize="3xl" fontWeight="medium" color="dark.750">Então escolha seu continente</Text>
+        </VStack>
         <Box my="8">
-        <Swiper />
+          <Swiper />
         </Box>
       </Container>
     </>
